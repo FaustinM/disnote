@@ -1,0 +1,23 @@
+{
+  "name": "discordrp-bot",
+  "version": "1.0.0",
+  "description": "Un bot pour faire des transitions de salle",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Faustin_",
+  "license": "ISC",
+  "dependencies": {
+    "@sentry/node": "^5.14.2",
+    "discord.js": "^12.0.2",
+    "fs": "0.0.2",
+    "json": "^9.0.6",
+    "mongodb": "^3.5.5",
+    "node-schedule": "^1.3.2",
+    "npm": "^6.14.2",
+    "ora": "^4.0.3",
+    "pronote-lib": "^2.0.2"
+  }
+}
