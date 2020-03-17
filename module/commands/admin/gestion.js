@@ -74,6 +74,7 @@ module.exports = function(message, commands) {
                 break;
 
             case "reload":
+                require.cache = {};
                 commands.load();
                 message.channel.send(messages.COMMANDS_RELOAD);
                 break;

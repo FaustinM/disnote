@@ -9,6 +9,16 @@ module.exports = {
         msg : false,
         perm : "ADMINISTRATOR"
     },
+    mod : {
+        path : "../commands/admin/mod",
+        code : function() {
+            console.log("Composant mal géré !" + this.name)
+        },
+        use : true,
+        name : "mod",
+        msg : false,
+        perm : "MANAGE_MESSAGES"
+    },
     pronote : {
         path : "../commands/user/pronote",
         code : function() {

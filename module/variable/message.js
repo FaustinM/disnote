@@ -14,9 +14,6 @@ module.exports = {
     DM_BLOCK : ":frowning2: Malheureusement, j'ai l'impression que vous n'êtes pas dans un serveur Discord...",
     DM_SEND : ":mailbox_with_mail: Je vous est envoyé un DM !",
     CHANNEL_INVALID : ":frowning2: Le channel n'existe pas !",
-    ROLE_INVALID : ":frowning2: Le role n'existe pas !",
-    ROLE_DEFINE : ":tools: Le rôle %1 à été défini pour le channel : %2",
-    ROLE_MODIFY : ":tools: Le rôle %1 à été modifié pour le channel : %2",
     LOG_MOVE : "Changement de channel (RP)",
     HELP_NOBODY : ":frowning2: Aucune commande avec ce nom n'a été trouvée",
     USER_INVALID : ":frowning2: L'utilisateur n'existe pas !",
@@ -30,5 +27,6 @@ module.exports = {
     COMMANDS_LIST_ON : ":white_check_mark: En fonctionnement",
     COMMANDS_LIST_OFF : ":x: En arrêt",
     COMMANDS_LIST_ERROR : ":frowning2: En erreur",
-    WAITING : "<\a:peepo_bs:688802020190322864> Chargement en cours !"
+    WAITING : "<\a:peepo_bs:688802020190322864> Chargement en cours !",
+    PURGE_SUCCESS : ":white_check_mark: %1 message(s) ont été supprimé !"
 };

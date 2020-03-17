@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 // Librairie
 const Discord = require("discord.js");
 const Ora = require("ora");
